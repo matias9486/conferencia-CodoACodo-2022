@@ -1,0 +1,55 @@
+.badge{
+    margin-right: 5px;
+}
+
+
+.card{
+    margin: 0 20px;
+}
+
+.footer{
+    background-color: rgb(17, 60, 100);
+}
+
+.btn-enviar{
+    color: #fff !important;
+    background-color: rgb(157, 212, 74) !important;
+    border-color: rgb(157, 212, 74)!important;
+}
+
+.btn-transparente{
+    border-style: solid!important;
+    border-color: white;
+}
+
+.subrayado-punteado{
+text-decoration: underline dotted;
+}
+
+.negro-transparente{    
+    filter: brightness(50%);    
+}
+
+.padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  }
+
+  .hijo{
+    position: absolute;    /* posición absolute con respecto al padre */
+    top: 20%;             /* posicionada en la esquina inferior derecha */
+    right: 3rem;
+/*    font-size: 2vw;*/
+  }
+
+  @media screen and (min-width: 992px) {     
+     #navbarNavDropdown{        
+        position: relative;
+     }
+
+    #navbarNavDropdown ul{
+        position: absolute;        
+        right: 0;        
+    }
+
+}
